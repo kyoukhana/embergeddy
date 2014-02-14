@@ -1,0 +1,16 @@
+{
+  "name": "embergeddy",
+  "version": "0.0.1",
+  "author": "",
+  "dependencies": {
+    "handlebars": "*"
+  },
+  "devDependencies": {
+    "gulp-ember-handlebars": "~0.5.1",
+    "gulp-util": "~2.2.14",
+    "gulp": "~3.5.2"
+  },
+  "engines": {
+    "node": "0.8.x"
+  }
+}
