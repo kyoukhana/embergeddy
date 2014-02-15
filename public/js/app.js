@@ -10,7 +10,7 @@ App.Router.map(function() {
     this.route("tester", { path: "/tester" });
 });
 
-App.anotherRoute = Ember.Route.extend({
+App.tester = Ember.Route.extend({
     renderTemplate: function() {
         this.render('tester');
     }
