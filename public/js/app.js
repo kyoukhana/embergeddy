@@ -15,3 +15,4 @@ App.tester = Ember.Route.extend({
         this.render('tester');
     }
 });
+

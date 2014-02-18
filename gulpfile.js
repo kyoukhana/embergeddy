@@ -7,10 +7,11 @@ gulp.task('default', function(){
 });
 
 gulp.task('templates', function(){
-    gulp.src(['app/templates/*.hbs'])
+    gulp.src(['/ddjs/templates/*.hbs'])
         .pipe(handlebars({
             outputType: 'amd'
         }))
         .pipe(concat('templates.js'))
         .pipe(gulp.dest('build/js/'));
 });
+
